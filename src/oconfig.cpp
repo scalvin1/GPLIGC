@@ -154,7 +154,7 @@ Config::Config()
 	waypoints_offset.init(300,-10000,10000);
 	WAYPOINTS_OFFSET_TEXT_ONLY.on();
 
-	MAXTRIANGLES.init(1.5e6,0,10e42);
+	MAXTRIANGLES.init(1.5e7,0,10e42);
 	AUTOREDUCE.on();
 
 	fogdensity.init(0.01,0.0,0.5);
